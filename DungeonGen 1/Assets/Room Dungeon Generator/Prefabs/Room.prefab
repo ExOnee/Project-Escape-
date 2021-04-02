@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &118404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 456254}
+  - component: {fileID: 11430952}
+  m_Layer: 0
+  m_Name: Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11430952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae7af5a327d0e24bba9cf1605f4f90f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorridorPrefab: {fileID: 11402150, guid: 95db01f4cefe31642b5d1b8efb959a2d, type: 3}
+  Size:
+    x: 0
+    z: 0
+  Coordinates:
+    x: 0
+    z: 0
+  Num: 0
+  TilePrefab: {fileID: 6799781206536313709, guid: f6298955ee3bc764bbfe0d0f47d64e10,
+    type: 3}
+  WallPrefab: {fileID: 4427939488059580440, guid: be94f669522a7034687a78db64b9882f,
+    type: 3}
+  Setting:
+    floor: {fileID: 2100000, guid: a16d561c7bcb80347b12bb431e80ff84, type: 3}
+    wall: {fileID: 2100000, guid: 8cd11fbc8ddb16b44ad0d388e6d646f9, type: 3}
+  InWallPrefab: {fileID: 3669635745836767058, guid: f6410d6cad8528443a3a6fc7888588c3,
+    type: 3}
+  LightPrefab: {fileID: 4307110654978867899, guid: 94a4406a2bfce3c48b84872ad87609e5,
+    type: 3}
+  InWallCount: 12
+  MaxSubjectCount: 5
+  SubjectsPref:
+  - {fileID: 196269057862698625, guid: c0d77c68d1e03e843b218016241b911f, type: 3}
+  - {fileID: 1030079337223747004, guid: b12f20941e90175449eb154c9b20ea49, type: 3}
+  - {fileID: 6302212317923624047, guid: f23394d6de87ca149a76b25a5ec797c9, type: 3}
+  PlayerPrefab: {fileID: 780013440939709412, guid: ac270a55c41da0e4f868506e9bb88b9b,
+    type: 3}
